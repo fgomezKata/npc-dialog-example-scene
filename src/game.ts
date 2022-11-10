@@ -11,7 +11,7 @@ engine.addEntity(baseScene)
 // Alice
 export const alice = new NPC(
   {
-    position: new Vector3(8, 1.6, 5),
+    position: new Vector3(0, 0, 0),
     rotation: Quaternion.Euler(0, 180, 0)
   },
   resources.models.robots.alice,
